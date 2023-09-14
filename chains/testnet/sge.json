@@ -1,0 +1,20 @@
+{
+    "chain_name": "sge-testnet",
+    "api": [
+        {"provider": "StakerHouse", "address": "https://sge-testnet-rest.stakerhouse.com"}
+    ],
+    "rpc": [
+        {"provider": "StakerHouse", "address": "https://sge-testnet-rpc.stakerhouse.com"}
+    ],
+    "sdk_version": "0.45.11",
+    "coin_type": "118",
+    "min_tx_fee": "250",
+    "addr_prefix": "sge",
+    "logo": "/logos/sge.webp",
+    "assets": [{
+        "base": "usge",
+        "symbol": "SGE",
+        "exponent": "6",
+        "logo": "/logos/sge.webp"
+      }]
+  }
