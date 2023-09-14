@@ -1,20 +1,20 @@
 {
-    "chain_name": "arkeo",
+    "chain_name": "konstellation",
     "api": [
-        {"provider": "StakerHouse", "address": "https://arkeo-testnet-rest.stakerhouse.com"}
+        {"provider": "StakerHouse", "address": "https://konstellation-rest.stakerhouse.com"}
     ],
     "rpc": [
-        {"provider": "StakerHouse", "address": "https://arkeo-testnet-rpc.stakerhouse.com"}
+        {"provider": "StakerHouse", "address": "https://konstellation-rpc.stakerhouse.com"}
     ],
-    "sdk_version": "0.46.13",
+    "sdk_version": "0.45.9",
     "coin_type": "118",
-    "min_tx_fee": "250",
-    "addr_prefix": "tarkeo",
-    "logo": "/logos/arkeo.svg",
+    "min_tx_fee": "5000",
+    "addr_prefix": "darc",
+    "logo": "/logos/konstellation.webp",
     "assets": [{
-        "base": "uarkeo",
-        "symbol": "ARKEO",
+        "base": "udarc",
+        "symbol": "DARC",
         "exponent": "6",
-        "logo": "/logos/arkeo.svg"
+        "logo": "/logos/konstellation.webp"
       }]
   }
