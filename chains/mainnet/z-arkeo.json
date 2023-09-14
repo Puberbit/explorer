@@ -1,0 +1,19 @@
+{
+    "chain_name": "arkeo",
+    "coingecko": "",
+    "api": ["https://arkeo-testnet-rest.stakerhouse.com"],
+    "rpc": ["https://arkeo-testnet-rpc.stakerhouse.com"],
+    "sdk_version": "0.46.13",
+    "coin_type": "118",
+    "min_tx_fee": "250",
+    "addr_prefix": "tarkeo",
+    "logo": "/logos/arkeo.svg",
+    "assets": [
+      {
+        "base": "uarkeo",
+        "symbol": "ARKEO",
+        "exponent": "6",
+        "logo": "/logos/arkeo.svg"
+      }
+    ]
+  }
